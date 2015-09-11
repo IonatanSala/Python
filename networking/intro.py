@@ -67,4 +67,10 @@
 # Ordered & Error checked (simple checksum)
 # Used by Web Browsers, Email, SSH, FTP, ect
 
+# UDP
+# User Datagram Protocol
+# Un-Reliable Connection-less based protocol
+# Low Overhead
+# Used for VOIP, Online Games, Streaming
+
 
