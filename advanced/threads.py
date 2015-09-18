@@ -52,9 +52,16 @@
 # When to use Threading
 # Threading isn't the answer to every problem
 # If your program logic has to run in a sequence, then threads wont help you out.
+
 # If you are writing a GUI, then you want at least two threads. One for the GUI and one to do all the work
 # in the background.
 # To avoid the Gui being unresponive.
+
+# If the program is running on a CPU with only one core. Then there iwll be no performance imporvement
+# as the threads will be time split on the one core
+# It's great for servers that deal with TCP connection to be multi-Threaded as you want
+# to be able to handle more than 1 request at a time.
+
 
 
 import threading
